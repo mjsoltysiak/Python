@@ -18,7 +18,7 @@ suit_order = {'D':0,'H':1,'C':2,'S':3}
 card_order = {}
 for i in range(2,10):
     card_order[i] = i
-dic1 = {'J':11,'Q':11,'K':12,'A':13}
+dic1 = {'J':11,'Q':12,'K':13,'A':14}
 card_order.update(dic1)
 
 
