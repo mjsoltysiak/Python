@@ -23,7 +23,6 @@ def get_all_valid_files(directory=os.getcwd(),reg_pattern=r'^\d+_'):
     Searches for file names in given directory which names 
     conform given regex rule
     
-    
     Args:
         
         directory: search direcotry path, by default current working directory
@@ -32,7 +31,7 @@ def get_all_valid_files(directory=os.getcwd(),reg_pattern=r'^\d+_'):
                      numbers followed by underscore character
                      
     Returns:
-        Sorted list of valid filenames
+        List: all_files: Sorted list of valid filenames
         
     '''
     all_files = list()
