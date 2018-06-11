@@ -2,7 +2,7 @@
 """
 Created on Fri Jun  8 10:00:45 2018
 
-@author: ien
+@author: MSoltysiak
 """
 
 import os
